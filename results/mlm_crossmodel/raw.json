@@ -1,0 +1,2224 @@
+{
+ "modernbert-large": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 28072.15537261963,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 28961.93162536621,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 25004.432090759277,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 16933.006015777588,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "roberta-base": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 55172.234146118164,
+    "tokens": 28884,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 64984.201416015625,
+    "tokens": 27973,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 59163.88395690918,
+    "tokens": 29960,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 145274.32608032227,
+    "tokens": 48620,
+    "bytes": 127503
+   }
+  }
+ },
+ "distilbert-cased": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 88397.58834838867,
+    "tokens": 29299,
+    "bytes": 128742
+   },
+   "arxiv": {
+    "nats": 60375.34085083008,
+    "tokens": 27964,
+    "bytes": 127974
+   },
+   "wikipedia": {
+    "nats": 68351.68725585938,
+    "tokens": 28801,
+    "bytes": 128349
+   },
+   "python-code": {
+    "nats": 143910.9252319336,
+    "tokens": 43417,
+    "bytes": 127780
+   }
+  }
+ },
+ "a_s1": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 81799.73471069336,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 95289.37493896484,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 78705.63681030273,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 121490.84399414062,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73564.1530456543,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86510.19219970703,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 70962.9169921875,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 110767.38809204102,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 71239.3949584961,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84187.48663330078,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68709.66714477539,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108609.96365356445,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 70518.75761413574,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 83713.79766845703,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67962.95227050781,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108315.27307128906,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 70332.95614624023,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 83916.37377929688,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67794.15286254883,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108758.56118774414,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 70426.90916442871,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84333.97311401367,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67915.80303955078,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109591.58911132812,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 70663.53080749512,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84843.77963256836,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68202.33877563477,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 110643.6029663086,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 71054.68235778809,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85434.8589477539,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68651.71591186523,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 111877.38412475586,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "b_s1": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 82135.50430297852,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 95406.14282226562,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 78989.14575195312,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 122322.14935302734,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73745.8681640625,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86831.64971923828,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 71168.62225341797,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 110964.9958190918,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 71426.19914245605,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84466.12112426758,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68857.02334594727,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108528.27011108398,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 70713.24377441406,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 83991.65719604492,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68121.43472290039,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108197.21392822266,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 70537.17352294922,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84214.83361816406,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67979.43957519531,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108709.50659179688,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 70632.48307800293,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84669.61215209961,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68104.93612670898,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109611.60815429688,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 70890.65270996094,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85193.73846435547,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68409.66577148438,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 110731.04669189453,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 71300.3648223877,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85818.07159423828,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68886.44320678711,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 112050.3459777832,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "c_s1": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 75408.30712890625,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 88494.46160888672,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 72256.00512695312,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 112619.52291870117,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "a_s2": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 81849.67538452148,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 94993.9848022461,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 79199.25064086914,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 119167.38562011719,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73403.42877197266,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86082.70379638672,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 71051.69836425781,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109741.94564819336,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 71122.46580505371,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84010.94284057617,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68760.7319946289,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108267.53756713867,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 70398.615234375,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 83613.67562866211,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67978.7221069336,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108454.86340332031,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 70218.01148986816,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 83835.7815246582,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67711.7523803711,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109222.55505371094,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 70305.12287902832,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84264.68844604492,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67778.00338745117,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 110301.9924621582,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 70557.19924926758,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84780.63076782227,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68058.83200073242,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 111635.53985595703,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 70980.78636169434,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85401.65481567383,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68550.96383666992,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 113211.60546875,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "b_s2": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 82138.7106628418,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 95145.10382080078,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 79446.45275878906,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 119298.53930664062,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73656.33660888672,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86288.85403442383,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 71320.85586547852,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109707.03503417969,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 71374.66325378418,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84310.58325195312,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69035.29803466797,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107927.80603027344,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 70665.92172241211,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 83986.73788452148,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68263.15368652344,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108068.63070678711,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 70490.54415893555,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84268.12118530273,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68035.39999389648,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108900.15371704102,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 70587.85890197754,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84783.9465637207,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68107.88311767578,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 110068.8695678711,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 70879.17074584961,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85382.84936523438,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68403.55688476562,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 111460.47521972656,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 71341.78019714355,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86118.25729370117,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68917.17077636719,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 113097.81768798828,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "c_s2": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 75423.96603393555,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 87924.65768432617,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 72270.13467407227,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 112291.69497680664,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "a_s3": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 81789.25088500977,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 95010.30477905273,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 78622.42227172852,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 116912.9341430664,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73380.2958984375,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86359.46865844727,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 70844.03759765625,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108894.05212402344,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 71106.55781555176,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84233.92608642578,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68692.87255859375,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107402.54293823242,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 70370.73696899414,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 83743.15789794922,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67960.51501464844,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107486.15161132812,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 70184.57189941406,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 83900.53817749023,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67745.66989135742,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108231.30090332031,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 70259.70944213867,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84316.6936340332,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67811.27816772461,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109315.39978027344,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 70510.14471435547,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84831.36386108398,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68090.51669311523,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 110603.96856689453,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 70929.18545532227,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85479.58380126953,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68536.25729370117,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 112084.59191894531,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "b_s3": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 82095.32989501953,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 95554.6470336914,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 78934.65319824219,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 117701.47576904297,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73659.35092163086,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86757.48065185547,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 71053.71469116211,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109464.74951171875,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 71359.30540466309,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84838.45059204102,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68873.09930419922,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108088.59600830078,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 70614.767578125,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84471.28021240234,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68147.08428955078,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108116.11755371094,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 70438.01231384277,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84703.08731079102,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 67953.49560546875,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108819.58203125,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 70543.45460510254,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85167.16607666016,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68040.63012695312,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109884.78897094727,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 70814.69812011719,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85739.9624633789,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68325.32153320312,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 111171.0689086914,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 71258.48149108887,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86423.35757446289,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 68812.12399291992,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 112670.59573364258,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "c_s3": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 75387.33953857422,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 88075.38848876953,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 72156.65756225586,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 111081.71737670898,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "A8": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 54881.296813964844,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 68006.13415527344,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 52135.08981323242,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 76656.23243713379,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 49078.90393829346,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 61433.54623413086,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 47436.020278930664,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 68796.42474365234,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 47416.27001953125,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59677.97296142578,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 46164.574768066406,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 66599.62838745117,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 46931.75150299072,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59214.520599365234,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45777.25016784668,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 66259.0473022461,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 46785.85471343994,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59145.301361083984,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45673.9260559082,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 66565.21908569336,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 46805.05213165283,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59229.023864746094,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45723.57777404785,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 67094.32963562012,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 46905.65866088867,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59392.74169921875,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45834.473876953125,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 67670.78788757324,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 47059.14807891846,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59623.75305175781,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45974.425537109375,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 68234.54762268066,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "B8": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 54881.43817138672,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 67883.20568847656,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 52025.87533569336,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 77098.63619995117,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 49115.73452758789,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 61386.43264770508,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 47293.678649902344,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 69438.64015197754,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 47478.98458862305,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59677.144592285156,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 46061.912338256836,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 67415.31663513184,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 47002.06640625,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59244.528717041016,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45714.639404296875,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 67061.15390014648,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 46895.26313781738,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59235.114654541016,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45678.01629638672,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 67343.33215332031,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 46926.6494140625,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59394.58435058594,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45772.834060668945,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 67869.47647094727,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 47056.29458618164,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59654.93283081055,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 45947.21273803711,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 68422.91458129883,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 47248.19251251221,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 59982.94024658203,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 46136.94639587402,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 68965.26692199707,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "C8": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 50561.33427429199,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 63435.886169433594,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 48331.97183227539,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 70640.03991699219,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "deberta-base": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 60107.489318847656,
+    "tokens": 28884,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 68918.95291137695,
+    "tokens": 27973,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 64203.33302307129,
+    "tokens": 29960,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 134464.42889404297,
+    "tokens": 48620,
+    "bytes": 127503
+   }
+  }
+ },
+ "d_s1": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 53203.86599731445,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 65677.10757446289,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 51746.31414794922,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 71031.1608581543,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "d_s3": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 53324.91792297363,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 65870.03646850586,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 51816.59451293945,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 71220.36442565918,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "e_s1": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 77813.04611206055,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 91812.00387573242,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 74267.74713134766,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 115911.61962890625,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73386.74955749512,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86651.53826904297,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 70653.2318725586,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 110387.74862670898,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 72577.01156616211,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85894.24142456055,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69971.13412475586,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109612.27307128906,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 72347.70198059082,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85496.91094970703,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69765.9242553711,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109200.29598999023,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 72281.8705291748,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85458.89151000977,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69733.62878417969,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109273.35116577148,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 72266.92138671875,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85471.80880737305,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69728.38339233398,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109433.89916992188,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 72223.04457092285,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85485.84796142578,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69686.24795532227,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109472.12506103516,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 72239.22743225098,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85534.53604125977,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69683.22576904297,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109549.40859985352,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "e_s2": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 77910.29403686523,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 90953.38293457031,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 74760.5553894043,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 114742.93920898438,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73457.19555664062,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85980.83242797852,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 70874.14373779297,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 109276.68237304688,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 72584.40075683594,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85266.93768310547,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 70213.80181884766,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108718.97946166992,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 72329.19177246094,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84827.97378540039,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69949.20196533203,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108262.2177734375,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 72253.1605682373,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84779.0708618164,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69875.51452636719,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108266.71853637695,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 72237.42709350586,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84821.44290161133,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69871.15280151367,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108410.53134155273,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 72228.75857543945,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84835.99185180664,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69896.60412597656,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108552.62194824219,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 72233.6746673584,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84825.75765991211,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69878.17108154297,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108593.98440551758,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "e_s3": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 77735.51861572266,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 90867.15634155273,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 74088.11184692383,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 113313.85681152344,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "2": {
+   "fineweb-holdout": {
+    "nats": 73325.29800415039,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 86136.42306518555,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 70362.33697509766,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 108200.52658081055,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "3": {
+   "fineweb-holdout": {
+    "nats": 72528.36996459961,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 85365.0581665039,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69729.37808227539,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107577.77117919922,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "4": {
+   "fineweb-holdout": {
+    "nats": 72282.21678161621,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84945.04425048828,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69482.28268432617,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107176.25189208984,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "5": {
+   "fineweb-holdout": {
+    "nats": 72223.41165161133,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84933.28485107422,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69466.12942504883,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107184.87551879883,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "6": {
+   "fineweb-holdout": {
+    "nats": 72223.47077941895,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84984.91491699219,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69473.03997802734,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107285.05770874023,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "7": {
+   "fineweb-holdout": {
+    "nats": 72184.94924926758,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84955.51290893555,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69473.76556396484,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107277.71362304688,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  },
+  "8": {
+   "fineweb-holdout": {
+    "nats": 72159.77993774414,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 84878.43405151367,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 69424.29931640625,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 107174.93005371094,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ },
+ "d_s2": {
+  "1": {
+   "fineweb-holdout": {
+    "nats": 53180.4239654541,
+    "tokens": 28957,
+    "bytes": 128766
+   },
+   "arxiv": {
+    "nats": 66407.89266967773,
+    "tokens": 26359,
+    "bytes": 128000
+   },
+   "wikipedia": {
+    "nats": 51822.26661682129,
+    "tokens": 30289,
+    "bytes": 128379
+   },
+   "python-code": {
+    "nats": 71419.56509399414,
+    "tokens": 37782,
+    "bytes": 128144
+   }
+  }
+ }
+}

@@ -1,0 +1,340 @@
+{
+ "measured_gflop_per_sequence": {
+  "teacher_forward": 351.70287616,
+  "table_slow": 2469.260558336,
+  "table_fast": 822.945906688,
+  "bort8": {
+   "train_by_depth": {
+    "1": 359.158382592,
+    "2": 519.414349824,
+    "3": 679.670317056,
+    "4": 839.926284288,
+    "5": 1000.18225152,
+    "6": 1160.438218752,
+    "7": 1320.694185984,
+    "8": 1480.950153216
+   },
+   "forward_by_depth": {
+    "1": 135.501971456,
+    "2": 188.9206272,
+    "3": 242.339282944,
+    "4": 295.757938688,
+    "5": 349.176594432,
+    "6": 402.595250176,
+    "7": 456.01390592,
+    "8": 509.432561664
+   }
+  },
+  "bort4": {
+   "train_by_depth": {
+    "1": 208.566091776,
+    "2": 293.5259136,
+    "3": 378.485735424,
+    "4": 463.445557248,
+    "5": 548.405379072,
+    "6": 633.365200896,
+    "7": 718.32502272,
+    "8": 803.284844544
+   },
+   "forward_by_depth": {
+    "1": 85.304541184,
+    "2": 113.624481792,
+    "3": 141.9444224,
+    "4": 170.264363008,
+    "5": 198.584303616,
+    "6": 226.904244224,
+    "7": 255.224184832,
+    "8": 283.54412544
+   }
+  },
+  "bort4_anchor": {
+   "train_by_depth": {
+    "1": 208.566091776,
+    "2": 293.5259136,
+    "3": 378.485735424,
+    "4": 463.445557248,
+    "5": 548.405379072,
+    "6": 633.365200896,
+    "7": 718.32502272,
+    "8": 803.284844544
+   },
+   "forward_by_depth": {
+    "1": 85.304541184,
+    "2": 113.624481792,
+    "3": 141.9444224,
+    "4": 170.264363008,
+    "5": 198.584303616,
+    "6": 226.904244224,
+    "7": 255.224184832,
+    "8": 283.54412544
+   }
+  },
+  "flat8": {
+   "train_by_depth": {
+    "1": 349.494706176
+   },
+   "forward_by_depth": {
+    "1": 132.280745984
+   }
+  },
+  "flat4": {
+   "train_by_depth": {
+    "1": 198.90241536
+   },
+   "forward_by_depth": {
+    "1": 82.083315712
+   }
+  },
+  "flat10": {
+   "train_by_depth": {
+    "1": 424.790851584
+   },
+   "forward_by_depth": {
+    "1": 157.37946112
+   }
+  }
+ },
+ "rows": [
+  {
+   "group": "history before this study",
+   "job": "bort1 (joint, local teacher): student training",
+   "sequences": 32000,
+   "gflop_per_sequence": 938.4553532620799,
+   "pflop": 30.03057130438656,
+   "note": "approximate (log)"
+  },
+  {
+   "group": "history before this study",
+   "job": "bort1 (joint, local teacher): teacher",
+   "sequences": 32000,
+   "gflop_per_sequence": 351.70287616,
+   "pflop": 11.25449203712,
+   "note": "approximate (log)"
+  },
+  {
+   "group": "history before this study",
+   "job": "bort100m (joint, local teacher): student training",
+   "sequences": 102400,
+   "gflop_per_sequence": 938.4553532620799,
+   "pflop": 96.09782817403699,
+   "note": "approximate (log; part of it resumed from bort1)"
+  },
+  {
+   "group": "history before this study",
+   "job": "bort100m (joint, local teacher): teacher",
+   "sequences": 102400,
+   "gflop_per_sequence": 351.70287616,
+   "pflop": 36.014374518784,
+   "note": "approximate (log; part of it resumed from bort1)"
+  },
+  {
+   "group": "history before this study",
+   "job": "bort_shared: student training",
+   "sequences": 198400,
+   "gflop_per_sequence": 938.4553532620799,
+   "pflop": 186.18954208719668,
+   "note": "shared teacher stream: one teacher pass for both"
+  },
+  {
+   "group": "history before this study",
+   "job": "bort_shared: teacher",
+   "sequences": 198400,
+   "gflop_per_sequence": 351.70287616,
+   "pflop": 69.777850630144,
+   "note": "shared teacher stream: one teacher pass for both"
+  },
+  {
+   "group": "history before this study",
+   "job": "flat_shared (assumed same length): student training",
+   "sequences": 198400,
+   "gflop_per_sequence": 356.48460029952,
+   "pflop": 70.72654469942476,
+   "note": "teacher pass counted once, under bort_shared; approximate"
+  },
+  {
+   "group": "history before this study",
+   "job": "flat100m: student training",
+   "sequences": 198400,
+   "gflop_per_sequence": 356.48460029952,
+   "pflop": 70.72654469942476,
+   "note": "approximate (log)"
+  },
+  {
+   "group": "history before this study",
+   "job": "flat100m: teacher",
+   "sequences": 198400,
+   "gflop_per_sequence": 351.70287616,
+   "pflop": 69.777850630144,
+   "note": "approximate (log)"
+  },
+  {
+   "group": "200M-token arms",
+   "job": "A looped + merge: student training",
+   "sequences": 390656,
+   "gflop_per_sequence": 938.4553532620799,
+   "pflop": 366.6132144839511,
+   "note": "12,208 steps x 32 seq"
+  },
+  {
+   "group": "200M-token arms",
+   "job": "B looped, no merge: student training",
+   "sequences": 390656,
+   "gflop_per_sequence": 938.4553532620799,
+   "pflop": 366.6132144839511,
+   "note": "12,208 steps x 32 seq"
+  },
+  {
+   "group": "200M-token arms",
+   "job": "C flat: student training",
+   "sequences": 390656,
+   "gflop_per_sequence": 356.48460029952,
+   "pflop": 139.2628480146093,
+   "note": "12,208 steps x 32 seq"
+  },
+  {
+   "group": "200M-token arms",
+   "job": "teacher streams (A+C shared one pass, B a second)",
+   "sequences": 781312,
+   "gflop_per_sequence": 351.70287616,
+   "pflop": 274.7896775783219,
+   "note": "2 passes x 390,656 seq"
+  },
+  {
+   "group": "halting v1 (4 heads)",
+   "job": "frozen student at 8 depths (slow, per-depth runs)",
+   "sequences": 38400,
+   "gflop_per_sequence": 2469.260558336,
+   "pflop": 94.8196054401024,
+   "note": "300 steps x 32 seq x 4 heads"
+  },
+  {
+   "group": "halting v1 (4 heads)",
+   "job": "teacher",
+   "sequences": 38400,
+   "gflop_per_sequence": 351.70287616,
+   "pflop": 13.505390444544,
+   "note": ""
+  },
+  {
+   "group": "halting v1 (4 heads)",
+   "job": "head evals (6 x 256 seq per head)",
+   "sequences": 6144,
+   "gflop_per_sequence": 2820.963434496,
+   "pflop": 17.331999341543423,
+   "note": ""
+  },
+  {
+   "group": "evaluations",
+   "job": "bench_heldout, 4 runs (2 invalid) x (A, B at 8 depths, C) x 1024 seq",
+   "sequences": 4096,
+   "gflop_per_sequence": 5995.162763264,
+   "pflop": 24.556186678329343,
+   "note": "approximate counts"
+  },
+  {
+   "group": "evaluations",
+   "job": "halting_stats (A, B; 1024 seq each, slow table)",
+   "sequences": 2048,
+   "gflop_per_sequence": 2820.963434496,
+   "pflop": 5.777333113847808,
+   "note": "approximate counts"
+  },
+  {
+   "group": "evaluations",
+   "job": "halting_free (A, 512 seq): slow table + 6 token-rule passes + flat C",
+   "sequences": 512,
+   "gflop_per_sequence": 6361.542426624,
+   "pflop": 3.257109722431488,
+   "note": "approximate counts"
+  },
+  {
+   "group": "evaluations",
+   "job": "halting_eval, final run (A, B; 256 seq: table + 3 change + 3 head passes) + the killed first run",
+   "sequences": 665,
+   "gflop_per_sequence": 5877.55880448,
+   "pflop": 3.9085766049792,
+   "note": "approximate counts"
+  },
+  {
+   "group": "evaluations",
+   "job": "flops_score + seq_max_exit (A, B and A; ~1024 seq slow tables)",
+   "sequences": 1024,
+   "gflop_per_sequence": 2820.963434496,
+   "pflop": 2.888666556923904,
+   "note": "approximate counts"
+  },
+  {
+   "group": "evaluations",
+   "job": "bench_fast + autotune pools (small)",
+   "sequences": 2000,
+   "gflop_per_sequence": 2820.963434496,
+   "pflop": 5.641926868992,
+   "note": "approximate counts"
+  },
+  {
+   "group": "halting v2 features",
+   "job": "feature shards: 10,240 train + 512 check + 1,024 held-out seq (fast one-pass table)",
+   "sequences": 11776,
+   "gflop_per_sequence": 822.945906688,
+   "pflop": 9.691010997157887,
+   "note": ""
+  },
+  {
+   "group": "halting v2 features",
+   "job": "teacher for the shards",
+   "sequences": 11776,
+   "gflop_per_sequence": 351.70287616,
+   "pflop": 4.14165306966016,
+   "note": ""
+  },
+  {
+   "group": "small-model study",
+   "job": "teacher cache build (98,304 + 256 seq, local teacher)",
+   "sequences": 98560,
+   "gflop_per_sequence": 351.70287616,
+   "pflop": 34.6638354743296,
+   "note": "one pass, reused by all fifteen runs"
+  },
+  {
+   "group": "small-model study",
+   "job": "A', B' training: 6 runs x 3072 steps x 32 seq",
+   "sequences": 589824,
+   "gflop_per_sequence": 516.0439775232,
+   "pflop": 304.3751229986439,
+   "note": "1+2+1 blocks, depth 1..8"
+  },
+  {
+   "group": "small-model study",
+   "job": "C' training: 3 runs x 3072 steps x 32 seq",
+   "sequences": 294912,
+   "gflop_per_sequence": 202.88046366720002,
+   "pflop": 59.831883301021286,
+   "note": "4 flat blocks"
+  },
+  {
+   "group": "small-model study",
+   "job": "D' training: 3 runs x 3072 steps x 32 seq",
+   "sequences": 294912,
+   "gflop_per_sequence": 433.28666861568,
+   "pflop": 127.78143801478743,
+   "note": "10 flat blocks (iso-FLOP control)"
+  },
+  {
+   "group": "small-model study",
+   "job": "E' training: 3 runs x 3072 steps x 32 seq",
+   "sequences": 294912,
+   "gflop_per_sequence": 516.0439775232,
+   "pflop": 152.18756149932196,
+   "note": "1+2+1 blocks, depth 1..8, input injection (merge_base anchor)"
+  }
+ ],
+ "group_pflop": {
+  "history before this study": 640.5955987806618,
+  "200M-token arms": 1147.2789545608334,
+  "halting v1 (4 heads)": 125.65699522618984,
+  "evaluations": 46.02979954550374,
+  "halting v2 features": 13.832664066818047,
+  "small-model study": 678.8398412881041
+ },
+ "total_pflop": 2652.233853468111
+}

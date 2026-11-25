@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+runs/
+stores/
+feats/
+reproduced/
+lan_ssh.py
+*.tar.gz
+paper/arxiv/
+paper/arxiv.tar.gz
+
+# Recreated by the evaluation pipeline; cached source text includes email addresses.
+/results/mlm_crossmodel/texts.json
+
